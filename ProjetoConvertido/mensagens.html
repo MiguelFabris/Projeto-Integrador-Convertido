@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrocaJá — mensagens</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-frame">
+    <header class="navbar">
+      <a href="index.html" class="navbar__logo"><span class="t">Troca</span><span class="j">Já</span></a>
+      <nav class="navbar__links">
+        <a href="index.html">Início</a>
+        <a href="trocas.html">Trocas</a>
+        <a href="mensagens.html" class="active">Mensagens</a>
+        <a href="perfil.html">Perfil</a>
+      </nav>
+      <div class="navbar__right">
+        <a href="anunciar.html" class="btn btn-primary">+ Anunciar item</a>
+        <button class="icon-btn" type="button" title="Notificações">🔔</button>
+        <a href="perfil.html" class="user-chip"><span class="avatar avatar-icon">👤</span>Domenico <span>▾</span></a>
+      </div>
+    </header>
+
+    <div class="msg-layout">
+      <div class="msg-col">
+        <div class="conv-list">
+          <h3>Minhas conversas</h3>
+          <div class="search-bar" style="padding-left:12px;">
+            <input type="text" placeholder="Buscar conversas..." />
+          </div>
+
+          <ul>
+            <li class="conv-item active">
+              <img src="https://i.pravatar.cc/100?img=32" alt="Luana" />
+              <div>
+                <div class="name">Luana</div>
+                <div class="sub">Calculadora científica</div>
+              </div>
+            </li>
+
+            <li class="conv-item">
+              <img src="https://i.pravatar.cc/100?img=13" alt="Antônio" />
+              <div>
+                <div class="name">Antônio</div>
+                <div class="sub">Uniforme Técnico</div>
+              </div>
+            </li>
+
+            <li class="conv-item">
+              <img src="https://i.pravatar.cc/100?img=48" alt="Martina" />
+              <div>
+                <div class="name">Martina</div>
+                <div class="sub">Livro de cálculo III</div>
+              </div>
+            </li>
+          </ul>
+
+          <a href="trocas.html" class="btn btn-outline btn-block">☰ Ver todos os matches</a>
+        </div>
+      </div>
+
+      <div class="msg-col chat-col">
+        <div class="chat-head">
+          <img src="https://i.pravatar.cc/100?img=32" alt="Luana" />
+          <div>
+            <div class="name">Luana</div>
+            <div class="sub">Calculadora científica</div>
+          </div>
+        </div>
+
+        <div class="chat-banner">
+          <span>🛡️</span>
+          <div>
+            <strong>Mantenha a negociação dentro do TrocaJá</strong>
+            Não compartilhe dados pessoais ou realize pagamentos.
+          </div>
+        </div>
+
+        <div class="chat-body">
+          <div class="bubble-row">
+            <img src="https://i.pravatar.cc/100?img=32" alt="" />
+            <div>
+              <div class="bubble">Olá! Tenho interesse no seu livro. Podemos fazer a troca?</div>
+              <span class="bubble-time">09:30</span>
+            </div>
+          </div>
+
+          <div class="bubble-row me">
+            <img src="https://i.pravatar.cc/100?img=68" alt="" />
+            <div>
+              <div class="bubble">Olá! Tenho sim. Sua calculadora está em bom estado?</div>
+              <span class="bubble-time">09:32</span>
+            </div>
+          </div>
+
+          <div class="bubble-row">
+            <img src="https://i.pravatar.cc/100?img=32" alt="" />
+            <div>
+              <div class="bubble-imgs">
+                <img class="thumb" src="assets/calculadora.svg" alt="foto" />
+                <img class="thumb" src="assets/calculadora.svg" alt="foto" />
+              </div>
+              <span class="bubble-time">09:34</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input-row">
+          <input type="text" placeholder="Digite sua mensagem..." />
+          <button class="send" type="button">➤</button>
+        </div>
+      </div>
+
+      <div class="msg-col">
+        <div class="trade-panel">
+          <h3>Troca em negociação</h3>
+
+          <div>
+            <h4>Você oferece</h4>
+            <div class="trade-item">
+              <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=200&q=80" alt="Livro" />
+              <div>
+                <div class="t">Livro de cálculo</div>
+                <span class="badge badge-pill badge-status">Em negociação</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h4>Você recebe</h4>
+            <div class="trade-item">
+              <img src="assets/calculadora.svg" alt="Calculadora" />
+              <div>
+                <div class="t">Calculadora científica</div>
+                <span class="badge badge-pill badge-status">Em negociação</span>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn btn-outline btn-block" type="button">Ver detalhes da troca</button>
+          <div class="trade-info">
+            <span>ℹ️</span>
+            <span>A confirmação da troca deve ser feita presencialmente. Após finalizar, não esqueça de marcar como concluída!</span>
+          </div>
+          <button class="btn btn-primary btn-block" type="button">✓ Marcar como concluída</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

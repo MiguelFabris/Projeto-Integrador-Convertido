@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrocaJá — item</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-frame">
+    <header class="navbar">
+      <a href="index.html" class="navbar__logo"><span class="t">Troca</span><span class="j">Já</span></a>
+      <nav class="navbar__links">
+        <a href="index.html">Início</a>
+        <a href="trocas.html">Trocas</a>
+        <a href="mensagens.html">Mensagens</a>
+        <a href="perfil.html">Perfil</a>
+      </nav>
+      <div class="navbar__right">
+        <a href="anunciar.html" class="btn btn-primary">+ Anunciar item</a>
+        <button class="icon-btn" type="button" title="Notificações">🔔</button>
+        <a href="perfil.html" class="user-chip"><span class="avatar avatar-icon">👤</span>Domenico <span>▾</span></a>
+      </div>
+    </header>
+
+    <a href="index.html" class="back-link">← Voltar</a>
+
+    <div class="detail-wrap">
+      <div>
+        <div class="detail-main-img">
+          <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80" alt="Livro de Cálculo" />
+          <button class="save" type="button" aria-label="Salvar item">♡</button>
+        </div>
+
+        <div class="detail-thumbs">
+          <img class="thumb active" src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=200&q=80" alt="foto 1" />
+          <img class="thumb" src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=200&q=80" alt="foto 2" />
+          <img class="thumb" src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=200&q=80" alt="foto 3" />
+          <button class="next" type="button">›</button>
+        </div>
+      </div>
+
+      <div class="detail-info">
+        <h1>Livro de Cálculo</h1>
+        <span class="badge badge-Livro">Livro</span>
+
+        <div class="detail-owner">
+          <img src="https://i.pravatar.cc/100?img=47" alt="Ana Clara" />
+          <div>
+            <div class="name">Ana Clara</div>
+            <div class="loc">7.91 Bauru</div>
+          </div>
+        </div>
+
+        <p class="detail-desc">Livro usado em ótimo estado. Edição 7ª, ideal para quem está cursando cálculo I e II.</p>
+        <div class="detail-cond">✓ Estado do item <span class="badge badge-green">Ótimo</span></div>
+
+        <div class="detail-actions">
+          <button class="btn btn-outline" type="button">♡ Gostei</button>
+          <button class="btn btn-primary" type="button">⇄ Quero trocar</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="section" style="padding-top:8px;">
+      <div class="section-head">
+        <div>
+          <h2>Pode te interessar</h2>
+          <p style="color:var(--text-faint); font-size:13.5px; margin-top:4px;">Itens que combinam com o que você procura</p>
+        </div>
+        <a class="see-all" href="trocas.html">Ver todas</a>
+      </div>
+
+      <div class="item-grid">
+        <a href="item.html" class="item-card">
+          <div class="item-card__img"><img src="assets/calculadora.svg" alt="Calculadora científica" /></div>
+          <div class="item-card__body">
+            <div class="item-card__title">Calculadora científica</div>
+            <div class="item-card__loc">7.91 Bauru</div>
+            <div class="item-card__footer"><span class="badge badge-Material-Escolar">Material Escolar</span><button class="save-ic" type="button">☆</button></div>
+          </div>
+        </a>
+
+        <a href="item.html" class="item-card">
+          <div class="item-card__img"><img src="assets/canetas.svg" alt="Kit de canetas" /></div>
+          <div class="item-card__body">
+            <div class="item-card__title">Kit de canetas</div>
+            <div class="item-card__loc">7.91 Bauru</div>
+            <div class="item-card__footer"><span class="badge badge-Material-Escolar">Material Escolar</span><button class="save-ic" type="button">☆</button></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="footer-space"></div>
+  </div>
+</body>
+</html>

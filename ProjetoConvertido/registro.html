@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrocaJá — registro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="auth-shell">
+    <div class="auth-card">
+      <div class="auth-brand"><span class="t">Troca</span><span class="j">Já</span></div>
+
+      <h1>Criar conta</h1>
+      <p class="auth-subtitle">Cadastre-se para começar a trocar com a comunidade.</p>
+
+      <form class="auth-form" action="login.html" method="get">
+        <div class="field-row">
+          <label for="name">Nome completo</label>
+          <input id="name" type="text" placeholder="Seu nome" />
+        </div>
+
+        <div class="field-row">
+          <label for="email">E-mail</label>
+          <input id="email" type="email" placeholder="seu@email.com" />
+        </div>
+
+        <div class="field-row">
+          <label for="password">Senha</label>
+          <input id="password" type="password" placeholder="Crie uma senha" />
+        </div>
+
+        <div class="auth-actions">
+          <button class="btn btn-primary btn-block" type="submit">Registrar</button>
+          <button class="btn btn-outline btn-block auth-ghost" type="button" onclick="window.location.href='login.html'">Já tenho conta</button>
+        </div>
+      </form>
+
+      <div class="auth-divider">ou</div>
+
+      <p class="auth-link-row">
+        Voltar para a
+        <a href="index.html">home</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

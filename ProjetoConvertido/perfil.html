@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrocaJá — perfil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-frame">
+    <header class="navbar">
+      <a href="index.html" class="navbar__logo"><span class="t">Troca</span><span class="j">Já</span></a>
+      <nav class="navbar__links">
+        <a href="index.html">Início</a>
+        <a href="trocas.html">Trocas</a>
+        <a href="mensagens.html">Mensagens</a>
+        <a href="perfil.html" class="active">Perfil</a>
+      </nav>
+      <div class="navbar__right">
+        <a href="anunciar.html" class="btn btn-primary">+ Anunciar item</a>
+        <button class="icon-btn" type="button" title="Notificações">🔔</button>
+        <a href="perfil.html" class="user-chip"><span class="avatar avatar-icon">👤</span>Domenico <span>▾</span></a>
+      </div>
+    </header>
+
+    <div class="profile-hero">
+      <img src="https://i.pravatar.cc/100?img=68" alt="Domenico" />
+      <div>
+        <h2>Domenico</h2>
+        <div class="loc">7.91 Bauru</div>
+        <div class="profile-stats">
+          <div><strong>6</strong>Itens anunciados</div>
+          <div><strong>2</strong>Trocas concluídas</div>
+          <div><strong>4</strong>Itens salvos</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Meus itens anunciados</h2>
+        <a class="see-all" href="anunciar.html">+ Anunciar item</a>
+      </div>
+
+      <div class="item-grid">
+        <a href="item.html" class="item-card">
+          <div class="item-card__img"><img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=600&q=80" alt="Livro de Cálculo" /></div>
+          <div class="item-card__body">
+            <div class="item-card__title">Livro de Cálculo</div>
+            <div class="item-card__loc">7.91 Bauru</div>
+            <div class="item-card__footer"><span class="badge badge-Livro">Livro</span><button class="save-ic" type="button">☆</button></div>
+          </div>
+        </a>
+
+        <a href="item.html" class="item-card">
+          <div class="item-card__img"><img src="assets/calculadora.svg" alt="Calculadora científica" /></div>
+          <div class="item-card__body">
+            <div class="item-card__title">Calculadora científica</div>
+            <div class="item-card__loc">7.91 Bauru</div>
+            <div class="item-card__footer"><span class="badge badge-Material-Escolar">Material Escolar</span><button class="save-ic" type="button">☆</button></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="section-head"><h2>Itens salvos</h2></div>
+      <div class="item-grid">
+        <a href="item.html" class="item-card">
+          <div class="item-card__img"><img src="assets/canetas.svg" alt="Kit de canetas" /></div>
+          <div class="item-card__body">
+            <div class="item-card__title">Kit de canetas</div>
+            <div class="item-card__loc">7.91 Bauru</div>
+            <div class="item-card__footer"><span class="badge badge-Material-Escolar">Material Escolar</span><button class="save-ic" type="button">★</button></div>
+          </div>
+        </a>
+
+        <a href="item.html" class="item-card">
+          <div class="item-card__img"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80" alt="Uniforme Técnico" /></div>
+          <div class="item-card__body">
+            <div class="item-card__title">Uniforme Técnico</div>
+            <div class="item-card__loc">7.91 Bauru</div>
+            <div class="item-card__footer"><span class="badge badge-Roupas">Roupas</span><button class="save-ic" type="button">★</button></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <div class="footer-space"></div>
+  </div>
+</body>
+</html>

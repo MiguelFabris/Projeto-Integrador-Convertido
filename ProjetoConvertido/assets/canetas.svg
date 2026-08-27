@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Kit de canetas">
+  <rect width="800" height="600" fill="#f4f0ea"/>
+  <rect x="55" y="80" width="690" height="440" rx="28" fill="#fff9f0"/>
+  <g>
+    <rect x="120" y="170" width="90" height="200" rx="16" fill="#f1d776" transform="rotate(-18 165 270)"/>
+    <rect x="150" y="160" width="18" height="220" rx="9" fill="#2d3b50" transform="rotate(-18 159 270)"/>
+    <rect x="205" y="145" width="90" height="220" rx="16" fill="#7ea4ff" transform="rotate(-6 250 255)"/>
+    <rect x="236" y="135" width="18" height="240" rx="9" fill="#2d3b50" transform="rotate(-6 245 255)"/>
+    <rect x="315" y="150" width="95" height="210" rx="16" fill="#ff8f5d" transform="rotate(8 362 255)"/>
+    <rect x="350" y="140" width="18" height="230" rx="9" fill="#2d3b50" transform="rotate(8 359 255)"/>
+    <rect x="430" y="175" width="90" height="205" rx="16" fill="#67d9b5" transform="rotate(20 475 277)"/>
+    <rect x="460" y="165" width="18" height="225" rx="9" fill="#2d3b50" transform="rotate(20 469 277)"/>
+    <rect x="530" y="150" width="90" height="215" rx="16" fill="#f3a8d5" transform="rotate(-10 575 257)"/>
+    <rect x="565" y="142" width="18" height="235" rx="9" fill="#2d3b50" transform="rotate(-10 574 259)"/>
+  </g>
+  <g fill="#d9d2c8">
+    <circle cx="180" cy="460" r="28"/>
+    <circle cx="290" cy="466" r="28"/>
+    <circle cx="420" cy="480" r="28"/>
+    <circle cx="560" cy="465" r="28"/>
+  </g>
+  <text x="400" y="520" text-anchor="middle" fill="#3a4658" font-size="32" font-family="Arial, sans-serif" font-weight="700">Kit de canetas</text>
+</svg>

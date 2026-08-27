@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrocaJá — anunciar item</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-frame">
+    <header class="navbar">
+      <a href="index.html" class="navbar__logo"><span class="t">Troca</span><span class="j">Já</span></a>
+      <nav class="navbar__links">
+        <a href="index.html">Início</a>
+        <a href="trocas.html">Trocas</a>
+        <a href="mensagens.html">Mensagens</a>
+        <a href="perfil.html">Perfil</a>
+      </nav>
+      <div class="navbar__right">
+        <a href="anunciar.html" class="btn btn-primary">+ Anunciar item</a>
+        <button class="icon-btn" type="button" title="Notificações">🔔</button>
+        <a href="perfil.html" class="user-chip"><span class="avatar avatar-icon">👤</span>Domenico <span>▾</span></a>
+      </div>
+    </header>
+
+    <div class="form-wrap">
+      <h2 style="font-size: 24px; margin-bottom: 6px;">Anunciar item</h2>
+      <p style="color: var(--text-faint); font-size: 14px; margin-bottom: 28px;">Conte para a comunidade o que você quer trocar.</p>
+
+      <form>
+        <div class="field">
+          <label>Foto do item</label>
+          <div class="upload-box">Arraste uma imagem ou clique para enviar</div>
+        </div>
+
+        <div class="field">
+          <label for="title">Título</label>
+          <input class="input" id="title" type="text" placeholder="Ex: Livro de Cálculo" />
+        </div>
+
+        <div class="field">
+          <label>Categoria</label>
+          <div class="chip-select">
+            <button class="opt selected" type="button">Livros</button>
+            <button class="opt" type="button">Eletrônicos</button>
+            <button class="opt" type="button">Material Escolar</button>
+            <button class="opt" type="button">Roupas</button>
+            <button class="opt" type="button">Esportes</button>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="condition">Estado do item</label>
+          <div class="chip-select">
+            <button class="opt" type="button">Novo</button>
+            <button class="opt selected" type="button">Ótimo</button>
+            <button class="opt" type="button">Bom</button>
+            <button class="opt" type="button">Regular</button>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="desc">Descrição</label>
+          <textarea class="input" id="desc" placeholder="Descreva o item, estado de conservação e detalhes que ajudem na troca..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Publicar anúncio</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
